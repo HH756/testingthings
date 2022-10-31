@@ -1,0 +1,37 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .main {
+  width: 100vw;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container .main .title {
+  font-size: 5rem;
+}
+.container .main .ranNum {
+  font-size: 2rem;
+  background: rgb(243, 243, 243);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 20px 0px rgb(201, 201, 201);
+  margin-bottom: 1rem;
+}
+.container .main .getNewButton {
+  font-size: 2rem;
+  background: rgb(243, 243, 243);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 20px 0px rgb(201, 201, 201);
+  margin-bottom: 1rem;
+  border: none;
+}
+.container .main .getNewButton:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=Home.module.css.map */
